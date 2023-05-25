@@ -6,19 +6,23 @@ $headings = array();
 
 $row_count = 0;
 
-$mode = 1;
+$mode = 0;
 
 if ($mode == 0)
 {
 	$filename = "../smithsonian/2006.01.06.BibliographicData.csv";
 	
 	$header = array('bib_id', 'x', 'sil', 'citation', 'flag1', 'flag2');
+	
+	echo join("\t", $header), "\n";
 }
 else
 {
 	$filename = "../smithsonian/2006.01.06.TaxonomicData.csv";
 	
 	$header = array('record_id', 'sil', 'bib_id', 'text', 'flag');
+	
+	echo join("\t", $header), "\n";
 }
 
 $file_handle = fopen($filename, "r");
