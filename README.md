@@ -23,3 +23,7 @@ The folder `smithsonian` has the data dumps from the Smithsonian, which are not 
 ## Code
 
 My code to parse ION HTML pages, and to parse the Smithsonian “CSV” files.
+
+## Global Names BHL CoL
+
+The file http://opendata.globalnames.org/bhlnames/ may also be relevant here, depending on how much overlap there is between Catalogue of Life and Index Animalium.
